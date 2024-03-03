@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalculoTrianguloFragment">
+
+    <EditText
+        android:id="@+id/valorA"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|start"
+        android:ems="10"
+        android:hint="@string/valor_a"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/valorB"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="@string/valor_b"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/valorC"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:ems="10"
+        android:hint="@string/valor_c"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A"
+        android:importantForAutofill="no"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:onClick="calculaTriangulo"
+        android:text="@string/btnCalcular" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="214dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:text="Resultado: " />
+
+</FrameLayout>

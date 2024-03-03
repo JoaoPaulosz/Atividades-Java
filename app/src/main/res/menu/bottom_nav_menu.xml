@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/calctriangulo"
+        android:icon="@drawable/baseline_calculate_24"
+        android:title="@string/calculo_triangulo" />
+    <item
+        android:id="@+id/calcTemp"
+        android:icon="@drawable/baseline_thermostat_24"
+        android:title="@string/calculo_temperatura" />
+    <item
+        android:id="@+id/cadastro"
+        android:icon="@drawable/baseline_person_24"
+        android:title="@string/cadastro_contasto" />
+</menu>

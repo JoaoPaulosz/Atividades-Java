@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Atividades</string>
+    <string name="home">Home</string>
+    <string name="calculo_triangulo">Calculo Triangulo</string>
+    <string name="calculo_temperatura">Calculo Temperatura</string>
+    <string name="cadastro_contasto">Cadastro Contasto</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Login</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="homeText">Home Fragment</string>
+    <string name="button">Button</string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="valor_a">Valor A</string>
+    <string name="valor_b">Valor B</string>
+    <string name="valor_c">Valor C</string>
+    <string name="tempC">Temperatura em Cº</string>
+    <string name="temperatura_em_f">Temperatura em F</string>
+    <string name="btnTemp">Calcular Temperatura</string>
+    <string name="cadastrar_novo_contato">Cadastrar Novo Contato</string>
+    <string name="sobrenome">Sobrenome</string>
+    <string name="cpf">CPF</string>
+    <string name="rg">RG</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="nome">Nome</string>
+    <string name="telefone">Telefone</string>
+</resources>

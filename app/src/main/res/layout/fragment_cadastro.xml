@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroFragment">
+
+    <EditText
+        android:id="@+id/nomeText"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:ems="10"
+        android:hint="@string/nome"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:importantForAutofill="no"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/SobreNome"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="@string/sobrenome"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/Telefone"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:ems="10"
+        android:hint="@string/telefone"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/RG"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="@string/rg"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A"
+        tools:ignore="RtlHardcoded"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/CPF"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:layout_marginTop="110dp"
+        android:ems="10"
+        android:hint="@string/cpf"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:importantForAutofill="no"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:onClick="cadastrarContato"
+        android:text="@string/cadastrar"
+        tools:ignore="UsingOnClickInXml" />
+</FrameLayout>
