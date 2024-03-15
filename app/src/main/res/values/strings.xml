@@ -25,4 +25,5 @@
     <string name="cadastrar">Cadastrar</string>
     <string name="nome">Nome</string>
     <string name="telefone">Telefone</string>
+    <string name="cpfBusca">CPF</string>
 </resources>

@@ -19,24 +19,36 @@
         tools:ignore="RtlHardcoded,SpeakableTextPresentCheck,UsingOnClickInXml" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/fieldBusca"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="top|left"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="50dp"
         android:ems="10"
+        android:hint="@string/cpfBusca"
         android:inputType="text"
-        android:text="Name" />
+        android:minHeight="48dp"
+        android:importantForAutofill="no"
+        tools:ignore="RtlHardcoded" />
 
     <Button
         android:id="@+id/btnBuscar"
         android:layout_width="63dp"
         android:layout_height="wrap_content"
         android:layout_gravity="top|left"
-        android:layout_marginLeft="250dp"
+        android:layout_marginStart="250dp"
         android:layout_marginTop="50dp"
+        android:onClick="buscarContato"
         app:icon="@drawable/baseline_find_in_page_24"
-        app:iconGravity="start" />
+        app:iconGravity="start"
+        tools:ignore="RtlHardcoded,SpeakableTextPresentCheck" />
+
+    <ListView
+        android:id="@+id/listaContatos"
+        android:layout_width="401dp"
+        android:layout_height="408dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
 
 </FrameLayout>
